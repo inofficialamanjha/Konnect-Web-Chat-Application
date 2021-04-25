@@ -132,4 +132,4 @@ Successfully created 2 Chatting application, one using Tkinter and the other usi
 ![Konnect I](https://user-images.githubusercontent.com/75173703/115769450-318cd800-a3c9-11eb-870b-b93bff945b9b.PNG)
 ![Konnect II](https://user-images.githubusercontent.com/75173703/115769450-318cd800-a3c9-11eb-870b-b93bff945b9b.PNG)
 
-Both my Tkinter application and Web application are working as expected, with the web application also communicating between multiple devices on the same network, like between a phone and a computer. Our Tkinter application has a simple, minimalistic UI, while our web application has a clean UI, in line with top chat applications.
+Both my Tkinter application and Web application are working as expected, with the web application also communicating between multiple devices on the same network, like between a phone and a computer. The Tkinter application has a simple, minimalistic UI, while our web application has a clean UI, in line with top chat applications.
