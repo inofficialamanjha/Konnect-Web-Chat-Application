@@ -1,6 +1,7 @@
 # Konnect-Socket-Programming-based-group-Chat-web-Application
 
 Socket Programming Based Chat Application.
+
 Group Project Submission for the course IT303: Computer Networks.
 
 ## Tutorial Referred for Making this Project
@@ -14,13 +15,13 @@ A socket-programming based chat application is a python-based application that e
 
 A web chat application is a web-based application built using the Flask framework for back-end implementation and JavaScript for front-end Implementation. The application uses SocketIO, a cross-browser JavaScript library that emulates a persistent, bi-directional communication channel between the client and server.
 
-In this project, I have made two applications that can conduct message transfer in the form of a chat room application as long as both sender and receiver are on the same network and responsive to the network, irrespective of the size and distance of nodes.
+In this project, we have made two applications that can conduct message transfer in the form of a chat room application as long as both sender and receiver are on the same network and responsive to the network, irrespective of the size and distance of nodes.
 
 Every message transfer and for that matter any data transfer on a network must be governed by some set of rules which specify the packet behaviour and many more such parameters. These are called protocols. Both Application uses TCP (Transmission Control Protocol) to be able to send and receive data.
 
-Thus, in this work, I describe my implementation of Client-Server Interactions based on the approach of socket programming. I create Konnect, a web application created on SocketIO with bootstrap front-end using the Flask framework, HTML tags, and a standard Javascript template customized to our liking.
+Thus, in this work, we describe our implementation of Client-Server Interactions based on the approach of socket programming. We create Konnect, a web application created on SocketIO with bootstrap front-end using the Flask framework, HTML tags, and a standard Javascript template customized to our liking.
 
-I also show the implementations of client-server connections using sockets in Python, which are capable of handling multiple clients by broadcasting messages between one-another, and show the peer-to-peer communication between a single client-server connection using a simple application built using sockets and the tkinter API.
+We also show the implementations of client-server connections using sockets in Python, which are capable of handling multiple clients by broadcasting messages between one-another, and show the peer-to-peer communication between a single client-server connection using a simple application built using sockets and the tkinter API.
 
 # METHODOLOGY
 
@@ -45,7 +46,7 @@ IP protocol stands for the Internet protocol and is responsible for delivering p
 
 Socket programming is a way of connecting two nodes on a network to communicate with each other. One Socket (or a node) listens to a particular port at an IP address, while another socket reaches out to the other to form a connection.
 
-The server forms the listener socket while the client reaches out to the server. I am using TCP sockets in my project because they are telephonic, connection-oriented, and reliable. They also have an acknowledgement feature and control the flow of the data through a flow control mechanism.
+The server forms the listener socket while the client reaches out to the server. we are using TCP sockets in our project because they are telephonic, connection-oriented, and reliable. They also have an acknowledgement feature and control the flow of the data through a flow control mechanism.
 
 Server Characteristics:
 - Waits for a request from one of the clients
@@ -66,7 +67,7 @@ The Tkinter and Socket Based Chat Application is based on the use of Python sock
 
 **Server Architecture for the Chat Application**
 
-I am using TCP Sockets for setting up our server, and therefore - using importing the AF_INET and SOCK_STREAM flags.
+We are using TCP Sockets for setting up our server, and therefore - using importing the AF_INET and SOCK_STREAM flags.
 
 The tasks for the servers are broken into accepting new connections, handling and receiving messages from clients and broadcasting those messages to other clients over the chat application. The server-side script uses Multi-threading to receive the bytes transmitted over the socket buffer continuously.
 
@@ -77,7 +78,7 @@ The architecture of the functioning of the client is broken down into receiving 
 
 ## Konnect Web-Based Chat Application
 
-I have built a web application using sockets, which have been implemented on both the server and the client level, based on Flask-Sockets (for the Back-end Implementation) and SocketIO - JavaScript (for the Front-End Implementation).
+We have built a web application using sockets, which have been implemented on both the server and the client level, based on Flask-Sockets (for the Back-end Implementation) and SocketIO - JavaScript (for the Front-End Implementation).
 
 **SocketIO**
 
@@ -133,4 +134,4 @@ Successfully created 2 Chatting application, one using Tkinter and the other usi
 ![Konnect I](https://user-images.githubusercontent.com/75173703/115769450-318cd800-a3c9-11eb-870b-b93bff945b9b.PNG)
 ![Konnect II](https://user-images.githubusercontent.com/75173703/115769450-318cd800-a3c9-11eb-870b-b93bff945b9b.PNG)
 
-Both my Tkinter application and Web application are working as expected, with the web application also communicating between multiple devices on the same network, like between a phone and a computer. The Tkinter application has a simple, minimalistic UI, while our web application has a clean UI, in line with top chat applications.
+Both our Tkinter application and Web application are working as expected, with the web application also communicating between multiple devices on the same network, like between a phone and a computer. The Tkinter application has a simple, minimalistic UI, while our web application has a clean UI, in line with top chat applications.
