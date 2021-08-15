@@ -1,7 +1,7 @@
 # Konnect-Socket-Programming-based-group-Chat-web-Application
 
-Socket Programming Based Chat Application
-Group Project Submission for the course IT303: Computer Networks
+Socket Programming Based Chat Application.
+Group Project Submission for the course IT303: Computer Networks.
 
 ## Tutorial Referred for Making this Project
 
